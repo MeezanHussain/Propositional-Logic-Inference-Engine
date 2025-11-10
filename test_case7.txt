@@ -1,0 +1,7 @@
+TELL
+(p => q) & (q => r); s & t & u;
+ASK
+r & (p | t) & (~u => s)
+
+# KB with implications and conjunctions
+# Output: YES: 4

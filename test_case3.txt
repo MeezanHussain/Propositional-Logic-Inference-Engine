@@ -1,0 +1,7 @@
+TELL
+(~p || q) & (r => s);
+ASK
+p
+
+# Generic KB with brackets and different operational symbols
+# Output: NO

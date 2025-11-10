@@ -1,0 +1,8 @@
+TELL
+(a <=> (c => ~d)) & b & (b => a); c; ~f || g;
+ASK
+~d & (~g => ~f)
+
+
+# Generic KB with more than one symbol/operation in the ASK value
+# Output : YES: 3

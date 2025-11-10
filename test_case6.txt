@@ -1,0 +1,7 @@
+TELL
+(a || b) & (c & d) & (e || f) & (g => h); i || j || k; l & m;
+ASK
+h & (i || j) & (~k || l)
+
+# Generic Complex KB with multiple logical operations
+# Output: NO

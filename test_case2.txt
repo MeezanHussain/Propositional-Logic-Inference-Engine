@@ -1,0 +1,7 @@
+TELL
+p => q; q => r; r => s; s => t; t => u; s;
+ASK
+u
+
+# Simple HornKB
+# Output: YES in TT, FC, BC

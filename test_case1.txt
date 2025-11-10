@@ -1,0 +1,7 @@
+TELL
+a => b; b => c; c => d; d => e; e => f;
+ASK
+f
+
+# Simple horn KB
+# Output: NO for TT, FC AND BC
